@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="images/logo.svg" alt="">
+        <nav>
+            <ul>
+                <li><a href="#">Product<i class="fa fa-angle-down"></i> </a></li>
+                <li><a href="#">Resource<i class="fa fa-angle-down"></i> </a></li>
+                <li><a href="#">Pricing </a></li>
+                <button><a href="">Login</a></button>
+                <i class="fa-solid fa-bars" onclick="sidebar()" id="sidebar"></i>
+            </ul>
+        </nav>
+        <div class="sidenav" id="sidenav">
+            <ul>
+                <li><a href="#">Product </a></li>
+                <li><a href="#">Resource </a></li>
+                <li><a href="#">Pricing </a></li>
+                <button><a href="">Login</a></button>
+            </ul>
+        </div>
+    </div>
+    <div class="hero">
+        <div class="home">
+            <div class="content">
+                <h1>Free static websites templates</h1>
+                <span>Build responsive static websites within minutes with basic knowledge of HTML and CSS. Our static
+                    website templates are free, fast and responsive. Click on any design template and start editing
+                    without signing up.
+                </span>
+                <div>
+                    <button><a href="">Explore Button</a></button>
+                </div>
+            </div>
+            <div class="img">
+                <img src="images/hero visual-1200w.webp" alt="">
+            </div>
+        </div>
+        <div class="product">
+            <h1>Ready-made static website design templates</h1>
+            <span>Browse through our collection of free HTML and CSS website templates. All our designs are created by
+                professionals and you get access to the source code as well. Static web page design has never been more
+                simple.</span>
+            <div class="container">
+                 <div class="box">
+                    <img src="images/product3.gif">
+                    <h3>Medica Health industry template</h3>
+                    <span>We designed this template for businesses in the medical industry. It uses a white and blue color palette, with many sections detailing different covered practices, video presentations, an area to present the staff, news, glossary, diagnosis, appointment booking section, and calls to action.
+                    </span>
+                </div>
+                <div class="box">
+                    <img src="images/character-page-400w.webp">
+                    <h3>Traveler Tourism design</h3>
+                    <span>You can easily customize this template to create a homepage for a travel app. The design is
+                        simple and clean, with a header that shows a large image background and a unique trip search
+                        bar. It also includes sections for popular destinations, staff, testimonials, highlights, FAQs,
+                        and more.</span>
+                </div>
+               
+               
+                <div class="box">
+                    <img src="images/product4.webp">
+                    <h3>Togthr High Tech Design</h3>
+                    <span>An eye catching design, perfect for companies in the IT sector, gadget companies or AI. It features a video background in the header guaranteed to draw attention, a special typeface as an accent as well as all of the sections you would need to present your product to the world.</span>
+                </div>
+                <div class="box">
+                    <img src="images/product5.webp">
+                    <h3>Helpa Organization Template</h3>
+                    <span>This design is ideal for charities, organizations and causes. It has a clean and simple design and color palette and plenty of space for using images. The template has built in sections for info, steps for donation, effort progression, testimonials, FAQ and more.</span>
+                </div>
+                <div class="box">
+                    <img src="images/product2.webp">
+                    <h3>Character NFT website</h3>
+                    <span>Start from this template if you want to create a website for an NFT. It has a dark-toned design with yellow and purple accents. The design features clean sections to show the NFTs, to explain the process behind NFTs, a project roadmap section, an FAQ and a very bold CTA near the bottom of the page.</span>
+                </div>
+                <div class="box">
+                    <img src="images/product6.webp">
+                    <h3>OnConf Events Template</h3>
+                    <span>Built with online events, conferences, seminars and conventions in mind, the OnConf template is a clean design with sharp sections, rounded CTA's and striking accents. It features all of the sections you would need, including speakers, sponsors, pricing or video preview.</span>
+                </div>
+            </div>
+        </div>
+        <div class="template">
+            <div class="content">
+                <h1>CSS and HTML website templates</h1>
+                <span>The only platform that offers HTML website templates with source <br> code ready to be exported.
+                    With a basic knowledge of HTML and CSS you can customize any existing website template and use them
+                    for FREE.
+                </span><br><br>
+                <span>Using TeleportHQ for static web page design gives you instant access to the source code, including
+                    HTML & CSS of any project.
+                </span>
+            </div>
+            <div class="img">
+                <img src="images/free_lowcode-banner2 [2]-1200w.webp" alt="">
+            </div>
+        </div>
+        <div class="template2">
+            <h3>Missing your favorite template? Let us know!</h3>
+            <span>Help us improve your experience with TeleportHQ. We’ll get in touch soon!</span>
+            <div>
+                <input type="email" class="form-control" placeholder="Enter Your Email">
+                <button><a href="">CountMe</a></button>
+            </div>
+            <img src="images/templates-s1-300w.webp" alt="">
+            <img src="images/templates-s1-300w.webp" id="image2">
+        </div>
+        <div class="teleport">
+            <h2>
+                Create static pages or entire websites using TeleportHQ
+            </h2>
+            <span>Edit and style your website the way you want. Our low code design platform makes working with static
+                website themes easy and accessible for people of all skill levels. In addition, TeleportHQ allows you to
+                publish or export your page in HTML code, making it a friendly and flexible design platform.</span>
+            <div><button><a href="">Sign Up Free</a></button></div>
+        </div>
+        <div class="teleport2">
+            <h2>
+                Why should I build my website using TeleportHQ’s static website templates?
+            </h2>
+            <span>With a basic CSS and HTML understanding you can simply drag and drop elements to build your pages. Start from our collections of static templates and choose what best suits you: portfolio page, agency, business / app presentation, etc. Our builder allows you to view the source code and export your projects in clean CSS and HTML or any JS framework.</span>
+            <div class="container">
+                <div class="box">
+                    <img src="images/teleport2-img.webp" alt="">
+                    <h3>Built for speed</h3>
+                    <span>We know speed plays a big role when it comes to your website rankings, that’s why all our static website templates are optimized as much as possible.</span>
+                </div>
+                <div class="box">
+                    <img src="images/teleport-img2.webp" alt="">
+                    <h3>Low code editor</h3>
+                    <span>Customize any static website template using our powerful low code editor. Add or remove pages, blocks and other design elements without writing a single line of code.</span>
+                </div><div class="box">
+                    <img src="images/teleport-img3.webp" alt="">
+                    <h3>Proper coding</h3>
+                    <span>We make sure that the output of our static web page html code is as clean as possible. Our website themes come with optimized JS, CSS and HTML code structure.</span>
+                </div><div class="box">
+                    <img src="images/teleport-img4.webp" alt="">
+                    <h3>In-built SEO features</h3>
+                    <span>Static websites and good SEO give you the best chance to rank in google. Create SEO-friendly out-of-the-box websites, managing all your basic SEO needs from our platform.</span>
+                </div><div class="box">
+                    <img src="images/teleport-img5.webp" alt="">
+                    <h3>Mobile friendly</h3>
+                    <span>All our static page templates are responsive, fast loading with a clean code output. Use mobile friendly static website themes to get ahead of your competition.</span>
+                </div><div class="box">
+                    <img src="images/teleport-img6.webp" alt="">
+                    <h3>Code export
+                    </h3>
+                    <span>TeleportHQ is one of the few visual HTML/CSS editors that allows code export. Create static web pages based on our templates and export your HTML code.</span>
+                </div>
+            </div>
+        </div>
+        <div class="getstart" style="padding-bottom: 0;">
+            <h1>Get started and create <br>
+                your static website in minutes</h1>
+                <span>
+                    Pick the best static template for you and customize it with our powerful editor by adding or removing pages, blocks and design elements.
+                </span>
+            <div><button><a href="">Sign Up Free</a></button></div>
+<img src="images/getstart.webp" alt="">
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="box">
+                    <h6>Product</h6>
+                    <ul>
+                        <li><a href="">professional Website Builder</a></li>
+                        <li><a href="">Headless CMS Integrations</a></li>
+                        <li><a href="">Static website builder</a></li>
+                        <li><a href="">Static website templates</a></li>
+                        <li><a href="">Low-code development</a></li>
+                        <li><a href="">AI website builder</a></li>
+
+                    </ul>
+                </div>
+                <div class="box">
+                    <h6>Resources</h6>
+                    <ul>
+                        <li><a href="">Community Websites</a></li>
+                        <li><a href="">Customer Stories</a></li>
+                        <li><a href="">Templates</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Help Center</a></li>
+                        <li><a href="">Documentation</a></li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h6>About</h6>
+                    <ul>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Career</a></li>
+                        <li><a href="">Community</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Report abuse</a></li>
+                        <li><a href="">Contact us</a></li>
+                    </ul>
+                </div><div class="box">
+                    <h6>Follow</h6>
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pv" style="justify-content: center; margin-top: 2rem;">
+                <img src="images/footer.svg">
+                <span>|  Copyright © TeleportHQ - 2023</span>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        var sideNav = document.getElementById("sidenav");
+        sideNav.style.display = "none";
+        function sidebar() {
+            sideNav.style.display = sideNav.style.display === "none" ? "block" : "none";
+        }
+        document.querySelectorAll(".sidenav a").forEach(link => {
+            link.addEventListener("click", () => {
+                document.getElementById("sidenav").style.display = "none";
+            });
+        });
+
+    </script>
+</body>
+
+</html>

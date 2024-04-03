@@ -1,0 +1,40 @@
+:root{
+   --font-size:44px;
+   --background-color:linear-gradient(145deg, #8585b4, #d246e7);
+   --padding:0.8rem 3rem;
+   --btn-padding:0.2rem 1.5rem;
+   --btn-radius:8px;
+   --hero-padding:3rem 10rem;
+   --h1-size:44px;
+   --h2-size:36px;
+   --h1-weight:900;
+   --span-size:18px;
+   --h3-size:21px;
+   --h3-weight:500;
+   --btn2-padding:1rem 3rem;
+   --btn2-radius:5rem;
+   --btn2-background:#1c1c1f;
+}
+@media screen and (max-width:800px) {
+  :root{
+   --hero-padding:2.5rem 6rem
+  }
+}
+@media screen and (max-width:740px) {
+   :root{
+      --hero-padding:2.5rem 4.5rem;
+      --padding:0.8rem 1.6rem;
+      --btn2-padding:1rem 2rem;
+     }
+}
+@media screen and (max-width:500px) {
+   :root{
+      --hero-padding:2rem;
+   }
+}
+@media screen and (max-width:400px) {
+  :root{
+   --hero-padding:0.5rem;
+   --padding:0.8rem 1rem;
+  } 
+}
