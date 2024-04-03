@@ -1,0 +1,33 @@
+@import url("global.css");
+body{
+    background: var(--background-color);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+form{
+    background: white;
+    padding: var(--padding);
+    border-radius: var(--btn-radius);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+}
+form input{
+    width: 75%;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    margin: 1rem 0;
+    font-size: var(--btn-size);
+    padding: var(--padding);
+}
+form button{
+    padding: var(--btn2-padding);
+    border-radius: var(--btn2-radius);
+    margin: 1.4rem auto;
+    border: none;
+    background: var(--background-color);
+    font-size: var(--btn-size);
+}
+form button a{
+    color: white;
+    text-decoration: none;
+}
